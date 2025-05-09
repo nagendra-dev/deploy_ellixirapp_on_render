@@ -6,6 +6,7 @@ chmod a+x build.sh
 ./build.sh
 
 export SECRET_KEY_BASE=$(mix phx.gen.secret)
+export PHX_SERVER=true
 
 Release created at _build/prod/rel/deploy_elixirapp_on_render
 
